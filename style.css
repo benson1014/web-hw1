@@ -1,0 +1,107 @@
+/* ***** Fonts ***** */
+
+@import url('https://fonts.loli.net/css?family=Montserrat:300,400,500,600,700');
+
+/* ***** Import CSS ***** */
+
+@import 'css/bootstrap/bootstrap.min.css';
+@import 'css/others/animate.css';
+@import 'css/others/magnific-popup.css';
+@import 'css/others/owl.carousel.min.css';
+@import 'css/others/font-awesome.min.css';
+@import 'css/others/pe-icon-7-stroke.css';
+
+
+
+body {
+    padding-right:30px; /* 左邊兼隔 */
+    padding-left:30px;  /* 左邊兼隔 */
+    /*margin:100 auto;  /* 置中 */
+}
+
+table {
+	text-align:center; /* 文字置中 */
+}
+
+.balck {
+	background:black;
+	color:white;
+	height:40px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+
+.text-center{
+	text-align:center; /* 文字置中 */
+	line-height: 40px; /* 文字垂直水平置中 */
+}
+
+.text-left {
+	text-align:left; /* 文字靠左 */
+}
+
+.img-00-0 {
+	padding-top:70px;
+	vertical-align:text-middle; /* 小圖片對齊文字中間 */
+	width:25px;
+	height:25px;
+	border-radius:50%; /* 圖片切成圓形 */
+
+}
+
+.img-00-1 {
+	width:1024px;
+	height:400px;
+}
+
+.img-01 {
+	width:350px;
+	height:350px;
+	border-radius:50%; /* 圖片切成圓形 */
+}
+
+.img-02 {
+	width:350px;
+	height:350px;
+	border-radius:50%;
+}
+
+.img-03 {
+	width:350px;
+	height:350px;
+	border-radius:50%;
+	opacity:0.9;
+}
+
+.r_img:hover{
+ opacity: 0.8;
+ rotate: 2deg;
+}
+
+.large_font:hover{
+ /* font-size: 28px; */
+ background-color: black;
+ color: white;
+ height: 350px;
+}
