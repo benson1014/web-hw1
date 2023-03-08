@@ -14,6 +14,7 @@
 
 html {
 	font-size:16px;
+	object-fit: scale-down;
 	/*height: 100%;*/
 }
 
@@ -32,10 +33,6 @@ h1 {
 	/*float: left;    /* 溢出畫面就往下一行且靠左 */
 }
 
-div {
-	font-size:1rem;
-}
-
 table {
 	text-align:center; /* 文字置中 */
 }
@@ -44,6 +41,11 @@ image {
 	float: left;
 	object-fit: scale-down;
 	max-width: 100%;
+	min-width: 10%;
+}
+
+text {
+	font-size:1rem;
 }
 
 .balck {
