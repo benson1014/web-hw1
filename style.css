@@ -105,18 +105,21 @@ text {
 	width:68.3rem;
 	height:26.7rem;
 	width:75%;
+	max-width: 100%;
 }
 
 .img-01 {
 	width:23.3rem;
 	height:23.3rem;
 	border-radius:50%; /* 圖片切成圓形 */
+	max-width: 100%;
 }
 
 .img-02 {
 	width:23.3rem;
 	height:23.3rem;
 	border-radius:50%;
+	max-width: 100%;
 }
 
 .img-03 {
@@ -124,6 +127,7 @@ text {
 	height:23.3rem;
 	border-radius:50%;
 	opacity:0.9;
+	max-width: 100%;
 }
 
 .r_img:hover{
