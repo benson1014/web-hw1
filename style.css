@@ -14,7 +14,7 @@
 
 
 body {
-    padding-right:30px; /* 左邊兼隔 */
+    padding-right:30px; /* 右邊兼隔 */
     padding-left:30px;  /* 左邊兼隔 */
     /*margin:100 auto;  /* 置中 */
 }
@@ -30,7 +30,7 @@ table {
 }
 
 .navbar {
-  overflow: hidden;
+  overflow: auto;
   background-color: #333;
   position: fixed;
   top: 0;
@@ -50,6 +50,7 @@ table {
 .navbar a:hover {
   background: #ddd;
   color: black;
+  padding-right:30px; /* 右邊兼隔 */
 }
 
 .text-center{
