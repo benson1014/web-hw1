@@ -12,11 +12,24 @@
 @import 'css/others/pe-icon-7-stroke.css';
 
 
+html {
+	font-size:15px;
+}
 
 body {
     /*padding-right:30px; /* 右邊兼隔 */
     /*padding-left:30px;  /* 左邊兼隔 */
-    margin:100 auto;  /* 置中 */
+    padding-right:2rem; /* 右邊兼隔 */
+    padding-left:2rem;  /* 左邊兼隔 */
+    /*margin:100 auto;  /* 置中 */
+}
+
+h1 {
+	font-size:2rem;
+}
+
+div {
+	font-size:1rem;
 }
 
 table {
@@ -43,9 +56,9 @@ table {
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 0.93rem 1.06rem;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 1.13rem;
 }
 
 .navbar a:hover {
@@ -55,7 +68,7 @@ table {
 
 .text-center{
 	text-align:center; /* 文字置中 */
-	line-height: 40px; /* 文字垂直水平置中 */
+	line-height: 2.7rem; /* 文字垂直水平置中 */
 }
 
 .text-left {
@@ -66,35 +79,35 @@ table {
 	vertical-align:text-middle; /* 小圖片對齊文字中間 */
 	/*width:25px;
 	height:25px;*/
-	width:3%;
-	height:8%;
+	width:1.7rem;
+	height:1.7rem;
 	border-radius:50%; /* 圖片切成圓形 */
 }
 
 .img-00-01 {
-	padding-top:60px;
+	padding-top:4rem;
 }
 
 .img-00-1 {
-	width:1024px;
-	height:400px;
+	width:68.3rem;
+	height:26.7rem;
 }
 
 .img-01 {
-	width:350px;
-	height:350px;
+	width:23.3rem;
+	height:23.3rem;
 	border-radius:50%; /* 圖片切成圓形 */
 }
 
 .img-02 {
-	width:350px;
-	height:350px;
+	width:23.3rem;
+	height:23.3rem;
 	border-radius:50%;
 }
 
 .img-03 {
-	width:350px;
-	height:350px;
+	width:23.3rem;
+	height:23.3rem;
 	border-radius:50%;
 	opacity:0.9;
 }
@@ -108,5 +121,5 @@ table {
  /* font-size: 28px; */
  background-color: black;
  color: white;
- height: 350px;
+ height: 23.3rem;
 }
