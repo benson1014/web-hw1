@@ -13,8 +13,8 @@
 
 
 html {
-	/*font-size:15px;*/
-	height: 100%;
+	font-size:16px;
+	/*height: 100%;*/
 }
 
 body {
@@ -23,6 +23,7 @@ body {
     padding-right:2rem; /* 右邊兼隔 */
     padding-left:2rem;  /* 左邊兼隔 */
     float: left;       /* 溢出畫面就往下一行且靠左 */
+    object-fit: scale-down;
     /*margin:100 auto;  /* 置中 */
 }
 
@@ -41,6 +42,7 @@ table {
 
 image {
 	float: left;
+	object-fit: scale-down;
 	max-width: 100%;
 }
 
@@ -100,6 +102,7 @@ image {
 .img-00-1 {
 	width:68.3rem;
 	height:26.7rem;
+	width:75%;
 }
 
 .img-01 {
