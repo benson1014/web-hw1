@@ -13,7 +13,8 @@
 
 
 html {
-	font-size:15px;
+	/*font-size:15px;*/
+	height: 100%;
 }
 
 body {
@@ -21,11 +22,13 @@ body {
     /*padding-left:30px;  /* 左邊兼隔 */
     padding-right:2rem; /* 右邊兼隔 */
     padding-left:2rem;  /* 左邊兼隔 */
+    float: left;       /* 溢出畫面就往下一行且靠左 */
     /*margin:100 auto;  /* 置中 */
 }
 
 h1 {
 	font-size:2rem;
+	/*float: left;    /* 溢出畫面就往下一行且靠左 */
 }
 
 div {
@@ -34,6 +37,11 @@ div {
 
 table {
 	text-align:center; /* 文字置中 */
+}
+
+image {
+	float: left;
+	max-width: 100%;
 }
 
 .balck {
@@ -73,6 +81,7 @@ table {
 
 .text-left {
 	text-align:left; /* 文字靠左 */
+	float: left;    /* 溢出畫面就往下一行且靠左 */
 }
 
 .img-00-00 {
