@@ -14,9 +14,9 @@
 
 
 body {
-    padding-right:30px; /* 右邊兼隔 */
-    padding-left:30px;  /* 左邊兼隔 */
-    /*margin:100 auto;  /* 置中 */
+    /*padding-right:30px; /* 右邊兼隔 */
+    /*padding-left:30px;  /* 左邊兼隔 */
+    margin:100 auto;  /* 置中 */
 }
 
 table {
@@ -26,7 +26,8 @@ table {
 .balck {
 	background:black;
 	color:white;
-	height:40px;
+	/*height:40px;*/
+	height:10%;
 }
 
 .navbar {
@@ -50,7 +51,6 @@ table {
 .navbar a:hover {
   background: #ddd;
   color: black;
-  padding-right:30px; /* 右邊兼隔 */
 }
 
 .text-center{
@@ -64,8 +64,10 @@ table {
 
 .img-00-00 {
 	vertical-align:text-middle; /* 小圖片對齊文字中間 */
-	width:25px;
-	height:25px;
+	/*width:25px;
+	height:25px;*/
+	width:3%;
+	height:8%;
 	border-radius:50%; /* 圖片切成圓形 */
 }
 
