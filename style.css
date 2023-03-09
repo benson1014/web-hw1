@@ -29,7 +29,7 @@ body {
 }
 
 h1 {
-	font-size:2rem;
+	font-size:2rem;   /* = 16px*2=32px */
 	/*float: left;    /* 溢出畫面就往下一行且靠左 */
 }
 
@@ -74,7 +74,7 @@ text {
   padding: 0.93rem 1.06rem;
   text-decoration: none;
   font-size: 1.13rem;
-  font-size: 100%;
+  font-size: 1.5vw;
 
 }
 
@@ -115,7 +115,7 @@ text {
 }
 
 .img-01 {
-	width:30vw;
+	width:30vw;        /* = 30% */
 	height:30vw;
 	border-radius:50%; /* 圖片切成圓形 */
 	background-size: 200%;
