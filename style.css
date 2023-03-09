@@ -42,6 +42,9 @@ image {
 	object-fit: scale-down;
 	max-width: 100%;
 	min-width: 10%;
+	max-height: 100%;
+	max-height: 10%;
+	/*height: auto;*/
 }
 
 text {
@@ -60,7 +63,7 @@ text {
   background-color: #333;
   position: fixed;
   top: 0;
-  width: 100%;
+  width: 93%;
 }
 
 .navbar a {
@@ -71,6 +74,8 @@ text {
   padding: 0.93rem 1.06rem;
   text-decoration: none;
   font-size: 1.13rem;
+  font-size: 100%;
+
 }
 
 .navbar a:hover {
@@ -102,42 +107,49 @@ text {
 }
 
 .img-00-1 {
-	width:68.3rem;
-	height:26.7rem;
-	width:75%;
-	max-width: 100%;
+	/*width:68.3rem;*/
+	/*height:26.7rem;*/
+	width: 85%;
+	height: 85%;
+	
 }
 
 .img-01 {
-	width:23.3rem;
-	height:23.3rem;
+	width:30vw;
+	height:30vw;
 	border-radius:50%; /* 圖片切成圓形 */
+	background-size: 200%;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
 	max-width: 100%;
-}
+	max-height: 100%;
+
+	}
 
 .img-02 {
-	width:23.3rem;
-	height:23.3rem;
+	width:30vw;
+	height:30vw;
 	border-radius:50%;
 	max-width: 100%;
+	background: center no-repeat scroll transparent;
 }
 
 .img-03 {
-	width:23.3rem;
-	height:23.3rem;
+	width:30vw;
+	height:30vw;
 	border-radius:50%;
 	opacity:0.9;
 	max-width: 100%;
 }
 
 .r_img:hover{
- opacity: 0.8;
- rotate: 2deg;
+	opacity: 0.8;
+	rotate: 2deg;
 }
 
 .large_font:hover{
- /* font-size: 28px; */
- background-color: black;
- color: white;
- height: 23.3rem;
+	/* font-size: 28px; */
+	background-color: black;
+	color: white;
+	height: 23.3rem;
 }
